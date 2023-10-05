@@ -39,11 +39,11 @@ int main()
 	int remainder = n % m; 
 	int wholePart = n - (m * remainder);
 	cout << "Whole part: " << wholePart << " Remainder: " << remainder << endl;
-	*/
+*/
 
 	//task5 swap the values of two variables with and without temporary variable
 	
-	/*
+/*
  
 	//with temp variable
 	int a1, a2; 
@@ -54,22 +54,22 @@ int main()
 	cout << "a1 after: " << a1 << " a2 after: " << a2 << endl;
 
 	//without temp variable
-  int b1, b2; 
-  cin >> b1 >> b2;
+  	int b1, b2; 
+ 	 cin >> b1 >> b2;
 	b1 = b1 + b2; 
 	b2 = b1 - b2; 
 	b1 = b1 - b2; 
 	cout << "b1 after: " << b1 << " b2 after: " << b2 << endl;
-	*/
+*/
 
 	
 	//task6 read a positive integer and display the value of the tens
-  /*
+/*
 	int num; 
 	cin >> num;
 	int tens = (num / 10) % 10; 
 	cout << tens << endl; 
-	*/
+ */
 
 	
 	//task7 read three numbers and calculate the area of the triangle their form (for the sake of the task 
@@ -80,7 +80,7 @@ int main()
 	double halfPerimeter = (a + b + c) / 2.0; 
 	double heronArea = sqrt(halfPerimeter * (halfPerimeter - a) * (halfPerimeter - b) * (halfPerimeter - c));
 	cout << "Area: " << heronArea << endl; 
-	*/ 
+*/ 
 
 	
 	//task8 read two integers and an agle and calculate the area of the triangle their form (for the sake of the task 
@@ -95,19 +95,19 @@ int main()
 	double angleToRadians = (PI * angle) / 180; 
 	double area = (z1 * z2 * sin(angleToRadians)) * 0.5;
 	cout << "Area: " << area << endl; 
-	*/
+*/
 
 	//task9 calculate the distance between two points A(x1, y1) and B(x2, y2)
-	/*
+/*
 	double x1, y1, x2, y2; 
 	cin >> x1 >> y1 >> x2 >> y2; 
 
 	double distance = sqrt(((x2 - x1)*(x2 - x1)) + ((y2 - y1)*(y2 - y1)));
 	cout << "Distance: " << distance << endl; 
-	*/
+*/
 	//task10 read three numbers - the coefficients of a qudratic equation and finds its roots 
 	// for the sake of the task a,b,c are always valid coefficients 
-  /*
+/*
 	double a, b, c; 
 	cin >> a >> b >> c; 
 	double discriminant = b * b - 4 * a * c; 
